@@ -21,7 +21,7 @@ export default class CreateContact extends React.Component {
           <ImageInput 
             className='create-contact-avatar-input'
             name='avatarURL'
-            maxHeight={124}
+            maxHeight={60}
           />
           <div className='create-contact-details'>
             <input type="text" name='name' placeholder='Name'/>
